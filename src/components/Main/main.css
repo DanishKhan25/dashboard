@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1px;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.title {
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #373d3f;
+}
+.chart {
+  min-width: 60%;
+}

@@ -1,0 +1,13 @@
+.top-rows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-contents {
+  display: flex;
+  flex-direction: column;
+}
+.top-btn-ttl {
+  display: flex;
+  gap: 5px;
+}

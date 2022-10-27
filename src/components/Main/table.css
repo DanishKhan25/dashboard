@@ -1,0 +1,17 @@
+.over-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3px;
+  justify-items: start;
+  align-items: center;
+}
+
+.over-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.item:first-child {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

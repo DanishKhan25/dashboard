@@ -1,0 +1,63 @@
+.wrapper {
+  display: flex;
+  overflow: hidden;
+}
+.main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background: #000;
+  color: #fff;
+  width: 215px;
+  height: 100vh;
+  transition: all 0.5s ease-in;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  width: 100%;
+  justify-content: flex-end;
+  align-content: center;
+  cursor: pointer;
+}
+.link {
+  display: flex;
+  color: #fff;
+  padding: 5px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.link:hover {
+  background: rgb(219, 233, 242);
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: rgb(219, 233, 242);
+  color: #000;
+}
+.icon,
+.link-text {
+  font-size: 1rem;
+  z-index: 100000;
+}
+@media screen and (max-width: 770px) {
+  .sidebar {
+    display: none;
+  }
+}
